@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asha Arun - Data Analyst Portfolio</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        section {
+            background-image: url('section-background.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asha Arun</h1>
+        <p>Data Analyst</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Include your educational background here.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+                <li>Statistical Analysis</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <p>Include your work experience details here.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Highlight your relevant data analysis projects here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Upload your resume for download:</p>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="resume" id="resume">
+                <input type="submit" value="Upload">
+            </form>
+            <a href="your_resume.pdf" download>Download Resume</a>
+        </section>
+    </div>
+
+    <div class="container">
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+            <span class="icon">&#xf08c;</span> LinkedIn
+        </a>
+        <a href="https://github.com/your-github-profile" target="_blank">
+            <span class="icon">&#xf09b;</span> GitHub
+        </a>
+    </div>
+</body>
+</html>
